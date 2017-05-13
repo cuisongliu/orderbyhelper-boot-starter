@@ -1,0 +1,3 @@
+rootProject.name = 'orderbyhelper-boot-starter'
+include 'orderbyhelper-spring-boot-autoconfigure'
+include 'orderbyhelper-spring-boot-starter'

@@ -26,7 +26,6 @@
 ext {
     junitVersion = "4.11"
     springBootVersion = "1.5.3.RELEASE"
-    springBootPageHelperVersion = "1.1.1"
     springBootMysqlVersion = "1.3.0"
     orderVersion = "0.0.1"
     projectLocation = "https://github.com/cuisongliu/${rootProject.name}"

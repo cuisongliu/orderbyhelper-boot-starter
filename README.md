@@ -3,13 +3,14 @@
 [![license](https://img.shields.io/badge/gradle-3.3-brightgreen.svg)](https://gradle.org)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/mit-license.php)
 
-# MyBatis [OrderByHelper](#https://github.com/abel533/OrderByHelper)  integration  with springboot
-OrderbyHelper-Spring-Boot-Starter 帮助你集成通用 [OrderByHelper](#https://github.com/abel533/OrderByHelper) 到 Spring Boot。
-OrderbyHelper-Spring-Boot-Starter will help you use [OrderByHelper](#https://github.com/abel533/OrderByHelper) with Spring Boot.
+# MyBatis [OrderByHelper](https://github.com/abel533/OrderByHelper)  integration  with springboot
 
-##How to use
+OrderbyHelper-Spring-Boot-Starter 帮助你集成通用 [OrderByHelper](https://github.com/abel533/OrderByHelper) 到 Spring Boot。
+OrderbyHelper-Spring-Boot-Starter will help you use [OrderByHelper](https://github.com/abel533/OrderByHelper) with Spring Boot.
 
-###mavem
+## How to use
+
+### maven
 
 在pom.xml加入nexus资源库
 
@@ -39,7 +40,7 @@ Add the following dependency to your pom.xml:
        <version>1.0</version>
      </dependency>
 
-###gradle
+### gradle
 
 在build.gradle加入nexus资源库
 

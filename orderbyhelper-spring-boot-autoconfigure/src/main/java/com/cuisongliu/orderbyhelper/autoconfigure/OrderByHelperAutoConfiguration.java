@@ -24,7 +24,6 @@
 
 package com.cuisongliu.orderbyhelper.autoconfigure;
 
-import com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
@@ -38,11 +37,12 @@ import java.util.List;
 /**
  * Mapper 配置
  *
- * @author  cuisongliu
+ * @author cuisongliu
  */
 @Configuration
 @ConditionalOnBean(SqlSessionFactory.class)
-@AutoConfigureAfter(PageHelperAutoConfiguration.class)
+@AutoConfigureAfter(name = {"org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration",
+        "com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration"})
 public class OrderByHelperAutoConfiguration {
 
     @Autowired

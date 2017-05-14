@@ -27,6 +27,5 @@ dependencies {
     compile "${springBootGroup}:spring-boot-autoconfigure:${springBootVersion}"
     optional "tk.mybatis:orderby-helper:${orderVersion}"
     optional "org.mybatis.spring.boot:mybatis-spring-boot-starter:${springBootMysqlVersion}"
-    optional "com.github.pagehelper:pagehelper-spring-boot-starter:${springBootPageHelperVersion}"
     optional "${springBootGroup}:spring-boot-configuration-processor:${springBootVersion}"
 }

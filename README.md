@@ -6,6 +6,7 @@
 # MyBatis [OrderByHelper](https://github.com/abel533/OrderByHelper)  integration  with springboot
 
 OrderbyHelper-Spring-Boot-Starter 帮助你集成通用 [OrderByHelper](https://github.com/abel533/OrderByHelper) 到 Spring Boot。
+
 OrderbyHelper-Spring-Boot-Starter will help you use [OrderByHelper](https://github.com/abel533/OrderByHelper) with Spring Boot.
 
 ## How to use
@@ -57,6 +58,7 @@ Add the following nexus repository to your build.gradle:
     
 
 在build.gradle加入依赖
+
 Add the following dependency to your build.gradle:
     
     compile "com.cuisongliu:orderbyhelper-spring-boot-starter:1.0"

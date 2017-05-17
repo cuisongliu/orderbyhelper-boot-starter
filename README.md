@@ -13,9 +13,9 @@ OrderbyHelper-Spring-Boot-Starter will help you use [OrderByHelper](https://gith
 
 ### maven
 
-在pom.xml加入nexus资源库
+在pom.xml加入nexus资源库（解决中国访问慢的问题,已经加入中央仓库）
 
-Add the following nexus repository to your pom.xml:
+Add the following nexus repository(fix china access slow problem,already append to central nexus.) to your pom.xml:
 
     <repositories>
         <repository>
@@ -43,9 +43,9 @@ Add the following dependency to your pom.xml:
 
 ### gradle
 
-在build.gradle加入nexus资源库
+在build.gradle加入nexus资源库（解决中国访问慢的问题,已经加入中央仓库）
 
-Add the following nexus repository to your build.gradle:
+Add the following nexus repository(fix china access slow problem,already append to central nexus.) to your build.gradle:
 
     allprojects {
         repositories {

@@ -33,4 +33,6 @@ ext {
     nexusUrl = "$baseUrl/content/groups/public/"
     uploadUrl = "$baseUrl/content/repositories/releases/"
     uploadSnapshotsUrl = "$baseUrl/content/repositories/snapshots/"
+    uploadOssUrl = "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+    uploadOssSnapshotsUrl = "https://oss.sonatype.org/content/repositories/snapshots/"
 }

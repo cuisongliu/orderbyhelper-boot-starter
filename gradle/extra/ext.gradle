@@ -24,10 +24,11 @@
 
 //定义版本号
 ext {
+    safeVersion = "1.0.2"
     junitVersion = "4.11"
     springBootVersion = "1.5.3.RELEASE"
     springBootMysqlVersion = "1.3.0"
-    orderVersion = "0.0.1"
+    orderVersion = "0.0.2"
     projectLocation = "https://github.com/cuisongliu/${rootProject.name}"
     baseUrl = "http://maven.cuisongliu.com"
     nexusUrl = "$baseUrl/content/groups/public/"

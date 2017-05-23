@@ -61,6 +61,13 @@ Add the following nexus repository(fix china access slow problem,already append 
 Add the following dependency to your build.gradle:
     
     compile "com.cuisongliu:orderbyhelper-spring-boot-starter:1.0"
+
+### Version related
+
+|orderbyhelper-spring-boot-starter|orderby-helper|
+|---|---|
+|1.0|0.0.1|
+|1.0.2|0.0.2|
     
 ## Acknowledgments
 
